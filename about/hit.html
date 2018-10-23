@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+    JINSUN  GHIBLI
+</title>
+
+<meta charset="utf-8">
+<style>
+body{
+    margin: 0 0 0 0;
+}
+header{
+    background-color:black;
+    width:100%; height: 50px;
+}
+.gnb-brand{
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+.gnb-brand > img{
+    display: block;
+}
+.gnb-brand > img:hover{
+    opacity: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+.gnb-list{
+    list-style: none;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 0 0;
+    vertical-align: middle;
+}
+.gnb-list li{
+    display: inline;
+    padding: 0 10px;
+}
+.gnb-list li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+.gnb-list li a:hover{
+    opacity: 0.8;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+}
+nav{
+	position: relative;
+	top: 30px;
+    float: left;
+    width: 20%;
+    box-shadow: 10px 10px 5px #999999;
+}
+nav > h2{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+nav > ul{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+nav #lnb_list1
+{
+  background-image: url("./lnb_list_hover1.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list1>a:hover > #lnb_list_img1
+{
+  visibility: hidden;
+}
+nav #lnb_list2
+{
+  background-image: url("./lnb_list_hover2.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list2>a:hover > #lnb_list_img2
+{
+  visibility: hidden;
+}
+nav #lnb_list3
+{
+  background-image: url("./lnb_list_hover3.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list3>a:hover > #lnb_list_img3
+{
+  visibility: hidden;
+}
+content{
+    position: relative;
+    left: 30px; top: 30px;
+    margin-bottom: 80px;
+    float: left;
+    width: 70%;
+}
+content > div{
+	padding-left: auto;
+	padding-right: auto;
+	display: block;
+}
+content .cell{
+	width: 15%;
+	height: 15%;
+	padding: 1%;
+}
+footer{
+    background-color: rgb(244, 244, 244);
+    color: rgb(136, 136, 136);
+    overflow: hidden;
+    clear: both;
+}
+.main-footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    width: 70%;
+}
+.col12-4{
+    width: 33%;
+    float: left;
+}
+.list-unstyled{
+    list-style: none;
+    padding: 0 0 0 0; 
+}
+.hit_wrapper{
+    width: 5%;
+    height: 350px;
+    display: table-cell;
+    overflow: hidden;
+}
+.hit_wrapper > p{
+	writing-mode: tb-rl;
+	font-size: 70%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+#hit1{
+    text-align: center;
+    color: #ED7D7B;
+    background-color: #ED7D7B;
+    position: absolute;
+    top: 48px;
+    width: 5%;
+    height: 304px;
+    
+    animation: 2s anim1;
+    animation-iteration-count: 1;
+}
+#hit1:hover{
+    color: white;
+}
+@keyframes anim1{
+    0% {top: 350px; height: 0px;}
+    100% {top: 48px; height: 304px;}
+}
+#hit2{
+    text-align: center;
+    color: #67C3C4;
+    background-color: #67C3C4;
+    position: absolute;
+    top: 154px;
+    width: 5%;
+    height: 196px;
+    animation: 2s anim2;
+    animation-iteration-count: 1;
+}
+#hit2:hover{
+    color: white;
+}
+@keyframes anim2{
+    0% {top: 350px; height: 0px;}
+    100% {top: 154px; height: 196px;}
+}	
+#hit3{
+    text-align: center;
+    color: #4C5224;
+    background-color: #4C5224;
+    position: absolute;
+    top: 157px;
+    width: 5%;
+    height: 193px;
+    animation: 2s anim3;
+    animation-iteration-count: 1;
+}
+#hit3:hover{
+    color: white;
+}
+@keyframes anim3{
+    0% {top: 350px; height: 0px;}
+    100% {top: 157px; height: 193px;}
+}
+#hit4{
+    text-align: center;
+    color: #D96852;
+    background-color: #D96852;
+    position: absolute;
+    top: 195px;
+    width: 5%;
+    height: 155px;
+    animation: 2s anim4;
+    animation-iteration-count: 1;
+}
+#hit4:hover{
+    color: white;
+}
+@keyframes anim4{
+    0% {top: 350px; height: 0px;}
+    100% {top: 195px; height: 155px;}
+}
+#hit5{
+    text-align: center;
+    color: #D1C298;
+    background-color: #D1C298;
+    position: absolute;
+    top: 234px;
+    width: 5%;
+    height: 116px;
+    animation: 2s anim5;
+    animation-iteration-count: 1;
+}
+@keyframes anim5{
+    0% {top: 350px; height: 0px;}
+    100% {top: 234px; height: 116px;}
+}
+#hit5:hover{
+    color: white;
+}
+#hit6{
+    text-align: center;
+    color: #F70646;
+    background-color: #F70646;
+    position: absolute;
+    top: 258px;
+    width: 5%;
+    height: 92px;
+    animation: 2s anim6;
+    animation-iteration-count: 1;
+}
+@keyframes anim6{
+    0% {top: 350px; height: 0px;}
+    100% {top: 258px; height: 92px;}
+}
+#hit6:hover{
+    color: white;
+}
+#hit7{
+    text-align: center;
+    color: #6B6D68;
+    background-color: #6B6D68;
+    position: absolute;
+    top: 274px;
+    width: 5%;
+    height: 76px;
+    animation: 2s anim7;
+    animation-iteration-count: 1;
+}
+#hit7:hover{
+    color: white;
+}
+@keyframes anim7{
+    0% {top: 350px; height: 0px;}
+    100% {top: 274px; height: 76px;}
+}
+#hit8{
+    text-align: center;
+    color: #DBAA5B;
+    background-color: #DBAA5B;
+    position: absolute;
+    top: 286px;
+    width: 5%;
+    height: 64px;
+    animation: 2s anim8;
+    animation-iteration-count: 1;
+}
+#hit8:hover{
+    color: white;
+}
+@keyframes anim8{
+    0% {top: 350px; height: 0px;}
+    100% {top: 286px; height: 64px;}
+}
+
+#hit9{
+    text-align: center;
+    color: #476870;
+    background-color: #476870;
+    position: absolute;
+    top: 306px;
+    width: 5%;
+    height: 44px;
+    animation: 2s anim9;
+    animation-iteration-count: 1;
+}
+#hit9:hover{
+    color: white;
+}
+@keyframes anim9{
+    0% {top: 350px; height: 0px;}
+    100% {top: 306px; height: 44px;}
+}
+#hit10{
+    text-align: center;
+    color: #DCD58B;
+    background-color: #DCD58B;
+    position: absolute;
+    top: 315px;
+    width: 5%;
+    height: 35px;
+    animation: 2s anim10;
+    animation-iteration-count: 1;
+}
+#hit10:hover{
+    color: white;
+}
+@keyframes anim10{
+    0% {top: 350px; height: 0px;}
+    100% {top: 315px; height: 35px;}
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <a class="gnb-brand" href="../main/main.html" target="_self" title="JINSUN GHIBLI">
+	<img src="../main/home.png" alt="STUDIO GHIBLI" width="20" height="20">
+    </a>
+    <ul class="gnb-list">
+	<li><a href="../about/founder.html" target="_self">STUDIO</a></li>
+	<li><a href="../works/all.html" target="_self">WORKS</a></li>
+	<li><a href="../directors/miyazaki.html" target="_self">DIRECTORS</a></li>
+    <ul>
+</header>
+
+<div class="wrapper">
+    <div id="top-area">
+	<img src="./top.gif" alt="top_image" width=100% height=200px>
+    </div>
+    <nav>
+    <h2>
+    <img src="./lnb_header.png" alt="header_image" width=100%>
+    </h2>
+    <ul class="lnb-list">
+	    <li id="lnb_list1"><a href="./founder.html" style="display:table;">
+	    <img id="lnb_list_img1" src="./lnb_list1.png" alt="창립자" width=100% style="display:table-row;">
+    	</a></li>
+	    <li id="lnb_list2"><a href="./history.html" style="display:table;">
+		<img id="lnb_list_img2" src="./lnb_list2.png" alt="역사" width=100% style="display:table-row;">
+    	</a></li>
+	    <li id="lnb_list3"><a href="./hit.html" style="display:table;">
+	    <img id="lnb_list_img3" src="./lnb_list_hover3.png" alt="흥행순위" width=100% style="display:table-row;">
+    	</a></li>
+	<ul>
+    </nav>
+    <content>
+	<div style="display: table;">
+	    <div class="hit_wrapper"></div>
+	    <div class="hit_wrapper"><div id="hit1">304</div></div>
+	   <div class="hit_wrapper">
+		<p style="padding-top: 185px;">센과치히로의행방불명</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit2">196</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 218px;">하울의움직이는성</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit3">193</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 251px;">모노노케히메</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit4">155</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 251px;">벼랑위의포뇨</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit5">116</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 268px;">바람이분다</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit6">92</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 235px;">마루밑아리에티</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit7">76</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 285px;">게드전기</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit8">64</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 254px;">고양이의보은</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit9">44</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 218px;">코쿠리코언덕에서</p>
+	    </div>	
+	    <div class="hit_wrapper"><div id="hit10">35</div></div>
+	    <div class="hit_wrapper">
+		<p style="padding-top: 268px;">추억의마니</p>
+	    </div>	
+	</div>
+	<p style="text-align: center;">역대 지브리 애니메이션 흥행 순위 그래프(단위: 억엔)</p>
+	<hr/><br>
+	<div style="display: table;">
+    	<div style="display: table-row;">
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./chihiro.jpg" alt="센과치히로" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./howl.jpeg" alt="하울" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./mononoke.jpg" alt="모노노케" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./ponyo.png" alt="포뇨" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./wind.png" alt="바람이분다" width=100% style="border-radius: 10px;">
+    		</div>
+    	</div>
+    	<div style="display: table-row;">
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./arrietty.jpg" alt="마루밑아리에티" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./gedegui.jpg" alt="게드전기" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./cat.jpg" alt="고양이의보은" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./poppy_hill.jpg" alt="코쿠리코언덕에서" width=100% style="border-radius: 10px;">
+    		</div>
+    		<div style="display: table-cell;" class="cell">
+    			<img src="./marnie.jpg" alt="추억의마니" width=100% style="border-radius: 10px;">
+    		</div>
+    	</div>
+    </div>
+    <p>
+	일본 박스오피스를 기준으로,<br>
+	<b>1위  &lt;센과 치히로의 행방불명&gt;</b>	감독: 미야자키 하야오		304억엔<br>
+	<b>2위   &lt;하울의 움직이는 성&gt;</b>		감독: 미야자키 하야오		196억엔<br>
+	<b>3위   &lt;모노노케 히메&gt;</b>			감독: 미야자키 하야오		193억엔<br>
+	<b>4위   &lt;벼랑 위의 포뇨	&gt;</b>		감독: 미야자키 하야오		155억엔<br>
+	<b>5위   &lt;바람이 분다&gt;</b>			감독: 미야자키 하야오		116.1억엔<br>
+	<b>6위   &lt;마루 밑 아리에티&gt;</b>		감독: 미야자키 고로		92.5억엔<br>
+	<b>7위   &lt;게드전기 - 어스시의 전설&gt;</b>	감독: 미야자키 고로		76.5억엔<br>
+	<b>8위  &lt;고양이의 보은&gt;</b>			감독: 모리타 히로유키		64.4억엔<br>
+	<b>9위   &lt;코쿠리코 언덕에서&gt;</b>		감독: 미야자키 고로		44.6억엔<br>
+	<b>10위  &lt;추억의 마니&gt;</b>			감독: 요네바야시 히로마사	35.3억엔<br>
+    </p>
+    </content>
+</div>
+
+<footer>
+    <div class="main-footer">
+	<div class="col12-4">
+	    <br>
+	</div>	
+	<div class="col12-4">
+	    <h3 style="margin-bottom: 0;">WHO AM I?</h3>
+	    <ul class="list-unstyled" style="margin-top: 5px;">
+		<li>JINSUN YU</li>
+		<li>2016313821</li>
+	    </ul>
+	</div>
+	<div class="col12-4">
+	    <h3 style="margin-bottom: 0">CONTACT</h3>
+	    <ul class="list-unstyled" style="margin-top: 5px;">
+		<li>E-MAIL yds9744@naver.com</li>
+		<li>TEL    010.2317.2752</li>
+	    </ul>
+	</div>
+    </div>
+</footer>
+</body>
+</html>

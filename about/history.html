@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+    JINSUN  GHIBLI
+</title>
+
+<meta charset="utf-8">
+<style>
+body{
+    margin: 0 0 0 0;
+}
+header{
+    background-color:black;
+    width:100%; height: 50px;
+}
+.gnb-brand{
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+.gnb-brand > img{
+    display: block;
+}
+.gnb-brand > img:hover{
+    opacity: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+.gnb-list{
+    list-style: none;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 0 0;
+    vertical-align: middle;
+}
+.gnb-list li{
+    display: inline;
+    padding: 0 10px;
+}
+.gnb-list li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+.gnb-list li a:hover{
+    opacity: 0.8;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    overflow: hidden;
+}
+nav{
+	position: relative;
+	top: 30px;
+    float: left;
+    width: 20%;
+    box-shadow: 10px 10px 5px #999999;
+}
+nav > h2{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+nav > ul{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+nav #lnb_list1
+{
+  background-image: url("./lnb_list_hover1.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list1>a:hover > #lnb_list_img1
+{
+  visibility: hidden;
+}
+nav #lnb_list2
+{
+  background-image: url("./lnb_list_hover2.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list2>a:hover > #lnb_list_img2
+{
+  visibility: hidden;
+}
+nav #lnb_list3
+{
+  background-image: url("./lnb_list_hover3.png");
+  background-size: 100% 100%;
+}
+nav #lnb_list3>a:hover > #lnb_list_img3
+{
+  visibility: hidden;
+}
+content{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: right;
+    width: 70%;
+}
+content table{
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+content table thead th{
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #ED7D7B;
+}
+content table tbody th{
+	width: 20%;
+	padding: 10px;
+}
+content table td{
+	padding: 10px;
+}
+content table .even{
+	background-color: #fdf3f5;
+}
+footer{
+    background-color: rgb(244, 244, 244);
+    color: rgb(136, 136, 136);
+    overflow: hidden;
+    clear: both;
+}
+.main-footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    width: 70%;
+}
+.col12-4{
+    width: 33%;
+    float: left;
+}
+.list-unstyled{
+    list-style: none;
+    padding: 0 0 0 0; 
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <a class="gnb-brand" href="../main/main.html" target="_self" title="JINSUN GHIBLI">
+	<img src="../main/home.png" alt="STUDIO GHIBLI" width="20" height="20">
+    </a>
+    <ul class="gnb-list">
+	<li><a href="../about/founder.html" target="_self">STUDIO</a></li>
+	<li><a href="../works/all.html" target="_self">WORKS</a></li>
+	<li><a href="../directors/miyazaki.html" target="_self">DIRECTORS</a></li>
+    <ul>
+</header>
+
+<div class="wrapper">
+    <div id="top-area">
+	<img src="./top.gif" alt="top_image" width=100% height=200px>
+    </div>
+    <nav>
+    <h2>
+    <img src="./lnb_header.png" alt="header_image" width=100%>
+    </h2>
+    <ul class="lnb-list">
+	    <li id="lnb_list1"><a href="./founder.html" style="display:table;">
+	    <img id="lnb_list_img1" src="./lnb_list1.png" alt="창립자" width=100% style="display:table-row;">
+    	</a></li>
+	    <li id="lnb_list2"><a href="./history.html" style="display:table;">
+		<img id="lnb_list_img2" src="./lnb_list_hover2.png" alt="역사" width=100% style="display:table-row;">
+    	</a></li>
+	    <li id="lnb_list3"><a href="./hit.html" style="display:table;">
+	    <img id="lnb_list_img3" src="./lnb_list3.png" alt="흥행순위" width=100% style="display:table-row;">
+    	</a></li>
+	<ul>
+    </nav>
+    <content>	
+	<table>
+	    <caption style="caption-side:bottom;">스튜디오 지브리 연표</caption>
+	    <thead>
+	    <tr>
+			<th>연도</th>
+			<th>내용</th>
+	    </tr>
+	    </thead>
+	    <tbody>
+	    <tr>
+			<th>1985년</th>
+			<td>스튜디오 설립</td>
+	    </tr>
+	    <tr>
+			<th class="even">1991년</th>
+			<td class="even">경영방침의 차이에 의한 대립으로 상무 하라도루가 사임을 하고, 후임으로 스즈키 도시오가 취임</td>
+	    </tr>
+	    <tr>
+			<th>1992년</th>
+			<td>히가시코가네이 역 근처 새 사옥으로 이전</td>
+	    </tr>
+	    <tr>
+			<th rowspan="2" class="even">1997년</th>
+			<td class="even">경영악화된 모회사 도쿠마 서점에 흡수됨</td>
+	    </tr>
+	    <tr>
+			<td class="even">&lt;모노노케히메&gt; 완성 후 미야자키 하야오 퇴사</td>
+	    </tr>
+	    <tr>
+			<th rowspan="2">1999년</th>
+			<td>도쿠마 서점의 제1 사업부문이 됨</td>
+	    </tr>
+	    <tr>
+			<td>미야자키 하야오 소장으로 복귀</td>
+	    </tr>
+	    <tr>
+			<th class="even">2004년</th>
+			<td class="even">도쿠마 서점 스튜디오 지브리 사업부가 주식회사 지브리 스튜디오로 분할됨</td>
+	    </tr>
+	    <tr>
+			<th>2005년</th>
+			<td>도쿠마 서점 산하를 벗어나 독립하여, 스즈키 도시오가 대표이사 사장으로, 미야자키 하야오와 스티븐 앨버트가 각각 이사로 취임함</td>
+	    </tr>
+	    <tr>
+			<th class="even">2008년</th>
+			<td class="even">스즈키 도시오가 대표이사 사장직에서 물러나 이사 겸 프로듀서에 전념하게 됨. 후임으로 전 윌트 디즈니 재팬 회장이었던 호시노 고지가 사장에 취임</td>
+	    </tr>
+	    <tr>
+			<th class=>2014년</th>
+			<td class=>애니메이션 제작부서 해체 발표, 저작권 관리와 라이브러리 운영만</td>
+	    </tr>
+	</table>
+    </content>
+</div>
+
+<footer>
+    <div class="main-footer">
+	<div class="col12-4">
+	    <br>
+	</div>	
+	<div class="col12-4">
+	    <h3 style="margin-bottom: 0;">WHO AM I?</h3>
+	    <ul class="list-unstyled" style="margin-top: 5px;">
+		<li>JINSUN YU</li>
+		<li>2016313821</li>
+	    </ul>
+	</div>
+	<div class="col12-4">
+	    <h3 style="margin-bottom: 0">CONTACT</h3>
+	    <ul class="list-unstyled" style="margin-top: 5px;">
+		<li>E-MAIL yds9744@naver.com</li>
+		<li>TEL    010.2317.2752</li>
+	    </ul>
+	</div>
+    </div>
+</footer>
+</body>
+</html>
